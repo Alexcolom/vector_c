@@ -3,9 +3,9 @@ A dynamic array implementation for C
 
 ### Specialized structures to manage instantiated vector types
 typedef struct iter_##_Type {<br />
-  vector_##_Type* this;  // pointer to vector<br />
-  int type;              // iterator type - enum {_iterator, _reverse_iterator}<br />
-  _Type* p;              // pointer to _Val<br />
+&nbsp;vector_##_Type* this;&nbsp;// pointer to vector<br />
+&nbsp;int type;&nbsp;// iterator type - enum {_iterator, _reverse_iterator}<br />
+&nbsp;_Type* p; &nbsp;// pointer to _Val<br />
 }iter_##_Type;<br />
 
 ### Specialized functions to manage instantiated vector types
